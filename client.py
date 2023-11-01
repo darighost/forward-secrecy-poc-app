@@ -1,12 +1,10 @@
 import requests
 import random
-import argparse
 import binascii
 from Crypto.Cipher import AES
 import sys
 
 recipient = sys.argv[-1]
-
 p = 17
 g = 3
 secret_key = random.randint(10, 100)
